@@ -1,0 +1,13 @@
+<div class="row"> <!-- // ROW -->
+  <div class="large-12 columns"> <!-- // Column span 12 -->
+    <h1>Transitions#index <small><%= @id %></small></h1>
+  </div> <!-- // END Column span 12 -->
+</div> <!-- // END ROW -->
+
+<% if @id %>
+  <%= render 'transitions/sam_jackson_copy' %>
+<% else %>
+    <div class="row"> <!-- // ROW -->
+      <p>Demo of steps required to have full transitions for pages between turbo link events</p>
+    </div> <!-- // END ROW -->
+<% end %>

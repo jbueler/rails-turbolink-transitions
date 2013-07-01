@@ -1,0 +1,10 @@
+<% @row.times do |r| %>
+<div class="row"> <!-- // ROW -->    
+  <% @max_col.times do |c| %>  
+  <div class="large-<%= @col %> columns"> <!-- // Column span <%= @col %> -->
+    <p><%= sam_jackson_says %></p>
+  </div> <!-- // END Column span <%= @col %> -->
+  <% end %>
+  <hr>
+</div> <!-- // END ROW -->
+<% end %>
